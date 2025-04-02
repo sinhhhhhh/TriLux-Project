@@ -1,0 +1,36 @@
+.blog-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.blog-detail h1 {
+  margin-bottom: 20px;
+}
+
+.blog-detail div {
+  word-wrap: break-word;
+  line-height: 1.6;
+}
+
+.blog-detail img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+.blog-detail p {
+  text-align: left;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+}

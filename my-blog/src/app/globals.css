@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: .938rem;
+  background-color:  hsl(220, 20%, 18%);
+  color: white;
+}
+
+ul {
+  list-style: none;
+  /* Color highlighting when pressed on mobile devices */
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+a {
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+ /*=============== HEADER ===============*/
+ .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: hsl(220, 24%, 12%);
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  z-index: 100;
+}
+.footer{
+  font-family: var(--body-font);
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+  gap: 3.5rem;
+  background-color: var(--black-color);
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.center-container{
+    padding-top: 100px; 
+}

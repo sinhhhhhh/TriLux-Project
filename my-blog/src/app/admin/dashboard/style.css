@@ -1,0 +1,58 @@
+.dashboard-container ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Chia thành 5 cột */
+  gap: 20px; /* Khoảng cách giữa các cột */
+  padding: 0;
+  list-style: none;
+}
+
+.dashboard-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container li img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.dashboard-container li button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-container li button:hover {
+  background-color: #0056b3;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.large-button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #7514e4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.large-button:hover {
+  background-color: #445ce9;
+}
